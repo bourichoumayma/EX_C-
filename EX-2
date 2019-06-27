@@ -1,0 +1,17 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main() {
+	int n;
+	cout<<"enter un nombre"<<endl;
+	cin>>n;
+	if ((n>=56) && (n<=76))
+	cout<<"CAGNE"<<endl;
+	else 
+	cout<<"PERDU"; 
+	
+	
+	
+	return 0;
+}
